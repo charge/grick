@@ -2770,3 +2770,18 @@ table.hide-for-medium {
 iframe, object, embed {
   max-width: 100%;
 }
+
+/* line 55, ../sass/app.scss */
+time {
+  color: #d14a4a;
+}
+
+/* line 57, ../sass/app.scss */
+footer {
+  margin: 16px;
+  padding: 16px;
+}
+/* line 60, ../sass/app.scss */
+footer p {
+  float: right;
+}

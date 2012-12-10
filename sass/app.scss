@@ -52,8 +52,15 @@
 
 iframe, object, embed { max-width: 100%; }
 
+time { color: $mainColor; }
 
-
+footer {
+	margin: 16px;
+	padding: 16px;
+	p {
+		float: right;
+	}
+}
 
 
 

@@ -2766,22 +2766,46 @@ table.hide-for-medium {
     margin: 0;
   }
 }
-/* line 53, ../sass/app.scss */
+/* Styles */
+/* line 55, ../sass/app.scss */
 iframe, object, embed {
   max-width: 100%;
 }
 
-/* line 55, ../sass/app.scss */
+/* line 57, ../sass/app.scss */
 time {
   color: #d14a4a;
 }
 
-/* line 57, ../sass/app.scss */
+/* line 59, ../sass/app.scss */
+.download-links {
+  padding: 8px 0;
+  text-align: center;
+}
+/* line 62, ../sass/app.scss */
+.download-links a {
+  display: inline-block;
+  margin: 8px 0;
+  width: 256px;
+  height: 84px;
+}
+
+/* line 69, ../sass/app.scss */
+.app-store {
+  background: url(../images/iphone.png) no-repeat;
+}
+
+/* line 73, ../sass/app.scss */
+.google-play {
+  background: url(../images/android.png) no-repeat;
+}
+
+/* line 77, ../sass/app.scss */
 footer {
   margin: 16px;
   padding: 16px;
 }
-/* line 60, ../sass/app.scss */
+/* line 80, ../sass/app.scss */
 footer p {
   float: right;
 }

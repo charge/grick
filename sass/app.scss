@@ -50,9 +50,29 @@
 @import "foundation/components/modules/mqueries";
 
 
+/* Styles */
+
 iframe, object, embed { max-width: 100%; }
 
 time { color: $mainColor; }
+
+.download-links {
+	padding: 8px 0;
+	text-align: center;
+	a {
+		display: inline-block;
+		margin: 8px 0;
+		width: 256px; height: 84px;
+	}
+}
+
+.app-store {
+	background: url(../images/iphone.png) no-repeat;
+}
+
+.google-play {
+	background: url(../images/android.png) no-repeat;
+}
 
 footer {
 	margin: 16px;
